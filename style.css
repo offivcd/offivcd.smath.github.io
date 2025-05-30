@@ -1,0 +1,25 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.board button {
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.gallery img {
+  width: 60px;
+  margin: 5px;
+}
